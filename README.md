@@ -68,10 +68,11 @@ This architecture will allow us to add new compilation targets in the future wit
 
 Literal is currently in the design and specification phase. The MVP is focused on a single target: **MacroDroid**.
 
-1.  [ ] **Compiler:** A CLI tool (`literalc`) that compiles `.literal` files into MacroDroid-compatible `.json` files.
-2.  [ ] **VS Code Extension:** A basic extension for syntax highlighting in `.literal` files.
-4.  [ ] **Example Library:** A public repository of `.literal` recipes to get users started.
-5.  **Documentation:** A complete `MAP.md` file documenting the mapping between Literal and MacroDroid. More will be added as project expands.
+1. [ ] **Compiler:** A CLI tool (`literalc`) that compiles `.literal` files into MacroDroid-compatible `.json` files.
+2. [ ] **VS Code Extension:** A basic extension for syntax highlighting in `.literal` files.
+3. [ ] **Example Library:** A public repository of `.literal` recipes to get users started.
+
+**Documentation:** A complete `MAP.md` file documenting the mapping between Literal and MacroDroid. More will be added as project expands.
 
 ## Future Goals
 
