@@ -2,6 +2,10 @@
 
 **Write powerful automations for your devices in a language you can actually read.**
 
+[![Project Status: Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-red)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)]()
+
 ---
 
 ## What is Literal?
@@ -76,6 +80,45 @@ Literal is currently in the design and specification phase. The MVP is focused o
 - **Advanced IDE Integration:** Move beyond syntax highlighting to include autocomplete, error checking, and inline documentation.
 - **Two-Way Compilation:** Explore the possibility of a tool that can decompile a platform's native format back into a `.literal` file.
 
+## Why Not Just Use MacroDroid's and other platforms built in Editor?
+
+MacroDroid is fantastic, and Literal doesn't replace it - it enhances it. Here's what Literal adds:
+
+- **Shareability:** Post `.literal` files in Reddit threads, send them in messages, or publish them as gists. Most JSON exports are unreadable to non programmers.
+- **Version Control:** Track changes with Git, see diffs between versions, collaborate on complex automations.
+- **Writeability:** Type on a real keyboard with your preferred editor instead of tapping on a phone screen.
+- **Cross-Platform:** Write once, compile to MacroDroid, Tasker, or n8n. (Future goal)
+
+| Feature            | MacroDroid GUI | Tasker | IFTTT | Literal |
+| ------------------ | -------------- | ------ | ----- | ------- |
+| Readable configs   | ❌              | ❌      | ✅     | ✅       |
+| Shareable as text  | ❌              | ❌      | ❌     | ✅       |
+| Version control    | ❌              | ❌      | ❌     | ✅       |
+| Full device access | ✅              | ✅      | ❌     | ✅*      |
+| No learning curve  | ✅              | ❌      | ✅     | ✅       |
+
+*Inherits capabilities from compilation target
+
 ## Contributing
 
 This project is in its early stages. I are actively seeking feedback on the language design and compiler architecture. Please open an issue to share your thoughts, suggestions, and ideas!
+
+Here's how you can help:
+
+**Language Design:**
+- Review [literal.md](literal.md) and propose syntax improvements
+- Share automation use cases that current syntax can't express
+- Suggest triggers/actions/conditions for your target platform
+
+**Compiler Development:**
+- Help reverse engineer platform specific JSON export formats
+- Help create the compilor architecture.
+- Contribute parser or emitter code (coming soon)
+
+**Documentation:**
+- Expand [MAP.md](MAP.md) with more MacroDroid mappings
+- Write example `.literal` recipes for common automation scenarios
+- Translate documentation to other languages
+
+Open an issue or PR to get started!
+
